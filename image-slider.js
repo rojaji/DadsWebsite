@@ -38,4 +38,4 @@ function changeImage() {
 changeImage();
 
 // Set interval for image change
-setInterval(changeImage, 5000); // Change image every 5 seconds
+setInterval(changeImage, 12000); // Change image every 5 seconds

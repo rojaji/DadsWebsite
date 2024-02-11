@@ -2,9 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/js/buttons.js',
+  entry: 'button.js',
   output: {
-    filename: 'js/bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -24,20 +24,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
-      filename: 'index.html',
+      template: 'Home.html',
+      filename: 'Home.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/page4.html',
-      filename: 'page4.html',
+      template: 'Contact.html',
+      filename: 'Contact.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/page2.html',
-      filename: 'page2.html',
+      template: 'About.html',
+      filename: 'About.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/page3.html',
-      filename: 'page3.html',
+      template: 'Services.html',
+      filename: 'Services.html',
     }),
   ],
 };

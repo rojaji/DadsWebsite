@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add a click event listener to the button
     buttonElement.addEventListener('click', function () {
         // Change the location to the desired page
-        window.location.href = 'page2.html';
+        window.location.href = 'About.html';
     });
 });
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add a click event listener to the button
     buttonElement.addEventListener('click', function () {
         // Change the location to the desired page
-        window.location.href = 'index.html';
+        window.location.href = 'Home.html';
     });
 });
 
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add a click event listener to the button
     buttonElement.addEventListener('click', function () {
         // Change the location to the desired page
-        window.location.href = 'page3.html';
+        window.location.href = 'Services.html';
     });
 });
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add a click event listener to the button
     buttonElement.addEventListener('click', function () {
         // Change the location to the desired page
-        window.location.href = 'page4.html';
+        window.location.href = 'contact.html';
     });
 });
 
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Check if the current page URL contains the specified keywords
     const currentPage = window.location.href;
-    if (currentPage.includes('page2.html') || currentPage.includes('page3.html') || currentPage.includes('page4.html')) {
+    if (currentPage.includes('About.html') || currentPage.includes('Services.html') || currentPage.includes('Contact.html')) {
         // Initial call for background change
         changeBackground();
 
